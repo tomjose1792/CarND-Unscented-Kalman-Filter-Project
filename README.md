@@ -20,7 +20,7 @@ Note:
 
 For comprehensive instructions on how to install and run project, please, refer to the following repo, which was used as a skeleton for this project: https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project
  
-####Files in the Github src Folder
+#### Files in the Github src Folder
 
 main.cpp - Communicates with the Term 2 Simulator receiving data measurements, reads in data, calls a function to run the Unscented Kalman filter, calls a function to calculate RMSE
 
@@ -28,14 +28,14 @@ ukf.cpp -initializes the Unscented Kalman filter, calls the predict and update f
 
 tools.cpp - Function to calculate RMSE.
 
-####Basic Build instructions
+#### Basic Build instructions
     $ mkdir build && cd build
     $ cmake .. && make
     $ ./UnscentedKF
 
 Or use the `$ bash build_and_run.sh` provided to execute the above commands.
 
-###Final results after Filter:
+### Final results after Filter:
 
 On the simulator: 
 The red circles are LIDAR measurements and blue circles are RADAR measurements data. The green triangles are the estimated markers. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
